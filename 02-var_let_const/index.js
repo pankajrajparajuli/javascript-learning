@@ -17,3 +17,17 @@ console.log("Updated Count:", count);
 
 // Uncommenting the next line will cause an error because const variables cannot be reassigned
 // gravity = 10;
+
+let name = "Alice";
+{
+    let name = "Bob";
+    console.log("Name inside block:", name);
+}
+console.log("Name:", name);
+
+var age = 30;
+{
+    var age = 40;
+    console.log("Age inside block:", age);
+}
+console.log("Age:", age);
