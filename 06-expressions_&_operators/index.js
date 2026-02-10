@@ -41,19 +41,19 @@ console.log("!p:", !p);         // Logical NOT
 let c = 10;
 
 c += 5;  // c = c + 5
-console.log("c after += 5:", c);
+console.log("c after += 5:", c); // 15
 
 c -= 3;  // c = c - 3
-console.log("c after -= 3:", c);
+console.log("c after -= 3:", c);  // 12
 
 c *= 2;  // c = c * 2
-console.log("c after *= 2:", c);
+console.log("c after *= 2:", c);  // 24
 
 c /= 4;  // c = c / 4
-console.log("c after /= 4:", c);
+console.log("c after /= 4:", c); // 6
 
 c %= 3;  // c = c % 3
-console.log("c after %= 3:", c);
+console.log("c after %= 3:", c); // 0
 
 // String Concatenation
 let firstName = "John";
